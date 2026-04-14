@@ -8,10 +8,15 @@ English version: [README.md](./README.md)
 
 流程涵蓋合成驗證碼圖片生成、資料集讀取、使用合成資料預訓練，以及使用真實圖片進行微調。辨識任務被設計為固定長度序列預測，不做字元切割。
 
+![Pipeline](./assets/pipeline_zh.svg)
+
 ## 專案結構
 
 ```text
 .
+├── assets/
+│   ├── pipeline_en.svg
+│   └── pipeline_zh.svg
 ├── create_img.py
 ├── dataset.py
 ├── model.py
@@ -175,7 +180,7 @@ python train.py
 - batch size：256
 - epochs：50
 - learning rate：`3e-4`
-- 
+- optimizer：AdamW
 - scheduler：OneCycleLR
 
 最佳 checkpoint 儲存為 `best_pretrain.pth`。

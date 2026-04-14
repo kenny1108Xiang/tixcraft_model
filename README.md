@@ -1,6 +1,6 @@
 # Tixcraft Captcha Model
 
-中文版本: [README_zh.md](./README_zh.md)
+Chinese version: [README_zh.md](./README_zh.md)
 
 ## Overview
 
@@ -8,10 +8,15 @@ A PyTorch-based captcha recognition model for 4-character lowercase English capt
 
 The pipeline covers synthetic captcha generation, dataset loading, model training on synthetic data, and finetuning on real captcha images. Recognition is treated as a fixed-length sequence prediction task — no character segmentation involved.
 
+![Pipeline](./assets/pipeline_en.svg)
+
 ## Project Structure
 
 ```text
 .
+├── assets/
+│   ├── pipeline_en.svg
+│   └── pipeline_zh.svg
 ├── create_img.py
 ├── dataset.py
 ├── model.py
@@ -226,3 +231,4 @@ Not included in this repo:
 - inference script
 - ONNX / TensorRT export
 - hyperparameters are hardcoded, no config file
+
