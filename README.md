@@ -225,4 +225,4 @@ Not included in this repo:
 
 - inference script
 - ONNX / TensorRT export
-- hyperparameter config files
+- hyperparameters are hardcoded, no config file

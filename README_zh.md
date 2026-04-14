@@ -225,4 +225,4 @@ python finetune.py
 
 - 推論腳本
 - ONNX / TensorRT 匯出
-- 超參數設定檔
+- 超參數直接寫在程式碼內，無獨立設定檔
