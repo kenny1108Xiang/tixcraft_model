@@ -217,8 +217,8 @@ Two metrics are tracked during training:
 
 Model weights and real_img are distributed via GitHub Releases.
 
-- [Latest Release](https://github.com/kenny1108Xiang/tixcraft_model/releases/latest)
-- [Oficial Captcha Picture (real_img dataset)](https://github.com/kenny1108Xiang/tixcraft_model/releases/tag/Real_Img)
+- [Latest Release](https://github.com/j1nxggg/tixcraft_model/releases/latest)
+- [Oficial Captcha Picture (real_img dataset)](https://github.com/j1nxggg/tixcraft_model/releases/tag/Real_Img)
 
 ## Limitations
 
