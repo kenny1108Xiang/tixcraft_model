@@ -1,6 +1,6 @@
 # Tixcraft 驗證碼辨識模型
 
-English version: [README.md](./README.md)
+English version: [README.md](../README.md)
 
 ## 專案簡介
 
