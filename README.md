@@ -229,6 +229,5 @@ Model weights and real_img are distributed via GitHub Releases.
 Not included in this repo:
 
 - inference script
-- ONNX / TensorRT export
 - hyperparameters are hardcoded, no config file
 
