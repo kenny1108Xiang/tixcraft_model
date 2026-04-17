@@ -1,5 +1,7 @@
 test_real.py
 *.pth
+*.onnx
+*.onnx.data
 venv/
 real_img/
 synthetic/
